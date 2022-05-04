@@ -32,23 +32,37 @@ nav {
 
 main {
     background-color: azure;
-    position:static;
     margin: 5px;
 }
 
 .mapa_mundi {
-    padding: 30px;
-    float: left;
-    width: 45%;
+    float: right;
+    margin: 10%
 }
-
+.mapamundi{
+    width: 400px;
+    height: auto;
+}
 .informacion {
     padding: 30px;
-    float: right;
     width: 45%;
+    text-align: center;
+    border-collapse: collapse;
 }
 
+table{
+    align-items: center;
+    border-collapse: collapse;
+    border: 5px solid aquamarine;
+}
+tr,td,th{
+    align-items: center;
+    border: 2px solid aquamarine;
+}
 footer {
-    background-color: black;
-    position:;
+    background-color: rgb(202, 92, 92);
+}
+.titulo1{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
 }
