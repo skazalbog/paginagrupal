@@ -1,0 +1,54 @@
+* {
+    margin: 0;
+}
+
+body {
+    background-color:lavenderblush;
+}
+nav {
+    background-color: cadetblue;
+}
+
+.menu {
+    text-align: center;
+    margin: 0;
+}
+
+.menu li {
+    display: inline-block;
+}
+
+.menu a {
+    padding: 30px;
+    color: white;
+    text-decoration: none;
+    display: block;
+}
+
+.menu a:hover {
+    background-color: darkslategray;
+}
+
+
+main {
+    background-color: azure;
+    position:static;
+    margin: 5px;
+}
+
+.mapa_mundi {
+    padding: 30px;
+    float: left;
+    width: 45%;
+}
+
+.informacion {
+    padding: 30px;
+    float: right;
+    width: 45%;
+}
+
+footer {
+    background-color: black;
+    position:;
+}
